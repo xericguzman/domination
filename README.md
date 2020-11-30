@@ -22,11 +22,11 @@ Like so many things, practice will make perfect with this!
 
 These functions won't `return` anything, just make changes to the current DOM. They also won't take in any complex objects, just strings!
 
-1. Write a function that takes in a string representing an id and a string representing a url. The function should set the image with that ID to have that url as its image source.
-2. Now use that function to set the three images in the Image Area section to show three images of your choice. You'll need three separate calls to your function!
-3. Now write a function that puts a line through the text of the first `<li>` in the Arguments `<ul>`. (Look up "first child" if you don't know what query to use!). Since it always makes the same query, and changes it in the same way, this function requires no parameters!
-4. Now use it! The first list item should get what's known as a "strikethrough" style.
-5. Write a function that always removes the last `<li>` from the Arguments `<ul>`  (try looking up "last child" and "remove node").
+1. Now write a function that puts a line through the text of the first `<li>` in the Arguments `<ul>`. (Look up "first child" if you don't know what query to use, although there are other solutions). Since it always makes the same query, and changes it in the same way, this function requires no parameters!
+2. Now call it! The first list item should get what's known as a "strikethrough" style.
+3. Write a function that takes in a string representing an id and a string representing a url. The function should set the image with that ID to have that url as its image source.
+4. Now use that function to set the three images in the Image Area section to show three images of your choice. You'll need three separate calls to your function!
+5. This one also doesn't require any parameters: write a function that always removes the last `<li>` from the Arguments `<ul>`  (try looking up "last child" and the `.remove` method). This is a bit tricky, but doable!
 6. Now use it to remove the last two items from that list. You'll need to call it twice!
 
 
