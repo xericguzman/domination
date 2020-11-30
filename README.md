@@ -1,6 +1,8 @@
 # DOMination
 
-Each of the below functions are a kind of function you might write in a larger app. Maybe you need a function that adds a todo to the top of your todo list, which is an unordered list in your interface. Or maybe it should add a photo to the end of your photo album, which is in a grid layout. There are many advantages of organizing your interface-handling code this way: it keeps the mechanisms in one place for easy change later if (when!) you change your interface, and it means that as you write more features you don't have to constantly copy-paste or reinvent how displaying interface elements is done.
+Each of the below functions are a kind of function you might write in a larger app. Maybe you need a function that adds a todo to the top of your todo list, which is an unordered list in your interface. Or maybe it should add a photo to the end of your photo album, which is in a grid layout.
+
+There are many advantages of organizing your interface-handling code this way: it keeps the mechanisms in one place for easy change later if (when!) you change your interface, and it means that as you write more features you don't have to constantly copy-paste or reinvent how displaying interface elements is done.
 
 Putting this work in functions will also unlock the next step: telling the browser to run some interface-changing logic when the user interacts with your app. And that's the real heart of any graphical app: responding to your user's interaction.
 
@@ -18,7 +20,9 @@ So when would you not want that? Well, if you want to get, say, the first `li` i
 Like so many things, practice will make perfect with this!
 
 
-### Part One - Side Effect Query Functions
+### Tasks
+
+##### Part One - Side Effect Query Functions
 
 These functions won't `return` anything, just make changes to the current DOM. They also won't take in any complex objects, just strings!
 
@@ -30,7 +34,7 @@ These functions won't `return` anything, just make changes to the current DOM. T
 6. Now use it to remove the last two items from that list. You'll need to call it twice!
 
 
-### Part Two - Side Effect Node Element Functions
+##### Part Two - Side Effect Node Element Functions
 
 These functions will take in an HTML Element, complete with all the properties and sub-properties that come with it. They then manipulate that element according to the specifications below. They still don't `return` anything, so don't worry about that yet!
 
@@ -48,7 +52,7 @@ Okay, here are those challenges:
 8. Try using it to change the size of any text on the page.
 
 
-### Part Three - Pure Functions Returning Node Elements
+##### Part Three - Pure Functions Returning Node Elements
 
 These functions will all take in parameters and use them to make and return node elements. They don't do _anything_ to the DOM. So to test them, we'll have to use our earlier side-effect-having functions.
 
