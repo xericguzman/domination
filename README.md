@@ -43,7 +43,7 @@ Whether you create them with `document.createElement` or query an already-existi
 Okay, here are those challenges:
 
 1. Write a function that takes in a node element and appends it to the Arguments `<ul>`.
-2. Let's use it! Create an image element and pass it into your function. (Note that a <ul> doesn't HAVE to have an `<li>` as its only children! Though ideally it should...) You'll know you've succeeded when the image shows up at the end of the Arguments list. Note that the image doesn't HAVE to have a `src` attribute... though it does if you want to see an actual IMAGE; otherwise the way to check would be to use your dev tools to check the DOM and see if the `img` tag got appended.
+2. Let's use it! Create an image element and pass it into your function. (Note that a `<ul>` doesn't HAVE to have an `<li>` as its only children! Though ideally it should...) You'll know you've succeeded when the image shows up at the end of the Arguments list. Note that the image doesn't HAVE to have a `src` attribute... though it does if you want to see an actual IMAGE; otherwise the way to check would be to use your dev tools to check the DOM and see if the `img` tag got appended.
 3. Write a function that takes in an image element and makes its height 30 pixels.
 4. Let's use it. Query and then pass in to the function one of the images in the Image Area. It should become a small 30-pixel image.
 5. Write a function that takes in an element and gives it the class `invisible`.
