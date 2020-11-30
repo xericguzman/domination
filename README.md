@@ -2,9 +2,20 @@
 
 Each of the below functions are a kind of function you might write in a larger app. Maybe you need a function that adds a todo to the top of your todo list, which is an unordered list in your interface. Or maybe it should add a photo to the end of your photo album, which is in a grid layout. There are many advantages of organizing your interface-handling code this way: it keeps the mechanisms in one place for easy change later if (when!) you change your interface, and it means that as you write more features you don't have to constantly copy-paste or reinvent how displaying interface elements is done.
 
-Putting this work in functions will also unlock the next step: telling the browser to run some interface-changing logic when the user interacts with your app. And that's the real heart of any graphical app: responding to your user's interaction with your interface.
+Putting this work in functions will also unlock the next step: telling the browser to run some interface-changing logic when the user interacts with your app. And that's the real heart of any graphical app: responding to your user's interaction.
 
 But first: let's write those functions!
+
+
+### A Note On Global Queries
+
+You can use them!
+
+Sometimes you'll query the same thing several times, and that thing doesn't change; a perfect example is a `ul`, like the Arguments list on this page. You won't be deleting or moving the list, so grabbing the result of querying it and saving it as a global variable is just fine. Then you don't have to query it every time you want to access it.
+
+So when would you not want that? Well, if you want to get, say, the first `li` in a `ul`, that's a query that might return a different element each time you call it. If the results of your query might change, you'll want to run that query just before you use it, to make sure other logic hasn't changed it in the meantime.
+
+Like so many things, practice will make perfect with this!
 
 
 ### Part One - Side Effect Query Functions
