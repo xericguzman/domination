@@ -8,18 +8,6 @@ Putting this work in functions will also unlock the next step: telling the brows
 
 But first: let's write those functions!
 
-
-### A Note On Global Queries
-
-You can use them!
-
-Sometimes you'll query the same thing several times, and that thing doesn't change; a perfect example is a `ul`, like the Arguments list on this page. You won't be deleting or moving the list, so grabbing the result of querying it and saving it as a global variable is just fine. Then you don't have to query it every time you want to access it.
-
-So when would you not want that? Well, if you want to get, say, the first `li` in a `ul`, that's a query that might return a different element each time you call it. If the results of your query might change, you'll want to run that query just before you use it, to make sure other logic hasn't changed it in the meantime.
-
-Like so many things, practice will make perfect with this!
-
-
 ### Tasks
 
 ##### Part One - Side Effect Query Functions
