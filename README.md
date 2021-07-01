@@ -2,9 +2,9 @@
 
 In this assignment, we'll be writing functions that affect the DOM in various ways.
 
-### Tasks
+## Tasks
 
-##### Part One - Querying DOM Elements
+### Part One - Querying DOM Elements
 
 These functions won't `return` anything, just make changes to the current DOM.
 
@@ -17,7 +17,7 @@ These functions won't `return` anything, just make changes to the current DOM.
 7. Write a function that takes in two strings, one representing a font size and one representing an id, and sets the thing with that id to have that size for its text.
 8. Try using it to change the size of any text on the page.
 
-##### Part Two - DOM Elements as Function Parameters
+### Part Two - DOM Elements as Function Parameters
 
 These functions will take in a DOM element, complete with all the properties and sub-properties that come with it. They then manipulate that element according to the specifications below. They still don't `return` anything.
 
@@ -32,7 +32,7 @@ Okay, here are those challenges:
 5. Write a function that takes in an element and gives it the class `invisible`.
 6. Now query an element on the page and pass it into that function. You should see it disappear! (Feel free to check the CSS file to see how this class works.)
 
-##### Part Three - Creating DOM Elements
+### Part Three - Creating DOM Elements
 
 These functions will all take in parameters and use them to make and return new DOM elements. They don't do _anything_ to the DOM. So to test them, we'll have to use our earlier functions.
 
