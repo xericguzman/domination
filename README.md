@@ -26,7 +26,7 @@ In this assignment, we'll be writing functions that affect the DOM in various wa
 3. Write a function that takes in an image element and modifies its height to be 30 pixels.
 4. Let's use it. Query an image element and then pass it into the function.
 5. Write a function that takes in an element and gives it the class `invisible`.
-6. Now query an element on the page and pass it into that function. You should see it disappear! (Feel free to check the CSS file to see how this class works.)
+6. Now query an element on the page and pass it into that function. You should see it disappear! (feel free to check the CSS file to see how this class works.)
 
 ### Part Three - Creating DOM Elements
 
