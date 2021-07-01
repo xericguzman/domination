@@ -1,6 +1,6 @@
 # DOMination
 
-In this assignment, we'll be writing a list of functions that affect the DOM in various ways.
+In this assignment, we'll be writing functions that affect the DOM in various ways.
 
 ### Tasks
 
